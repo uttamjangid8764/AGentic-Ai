@@ -12,7 +12,7 @@ from flask import Flask, jsonify, request, render_template_string
 
 app = Flask(__name__)
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = ""
 # Render me isko Environment Variable se change kar sakte ho.
 OPENROUTER_MODEL = os.getenv(
     "OPENROUTER_MODEL",
